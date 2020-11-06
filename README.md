@@ -35,3 +35,16 @@ We would like you to enhance the existing project and see you complete the follo
 
 ## Assignment submission
 Thank you very much for your time to take this test. Please upload this complete solution in Github and send us the link to `bfs-sor-interview@paypal.com`.
+
+## Things implimented as part of assigment :
+* Implemented H2-In memory Data base configurations with JPA.
+* Implemented H2 console in app.props to check DB that we’ve created.
+* Created initial sql script file for creating tables and to inserted some mock data into required tables.
+* Added address and date of birth fields in employee and generated it through json to object mapper.
+* Made address object as foreign key in employee table and mapped together.
+* Implemented dynamic GET API from scratch to retrieve employee resource from H2 in memory DB.
+* Implemented dynamic POST API from scratch to save employee resource into Employee table in H2 in memory DB.
+* Added proper error handling  mechanisms for both APIs with proper error/success messages and HTTP statuses in response object.
+* Added proper validations in API response object and while mapping/saving data into H2.
+* Created repository implementation class for DB operations. 
+* Implemented test cases for both API resources in the same application as Junit dependencies are not accessible  in employeeServTestFunctions service,  but they all passed.
